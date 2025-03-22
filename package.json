@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "postinstall": "fumadocs-mdx"
+    "doc": "gqlmd graphql-to-doc",
+    "gqlmd": "gqlmd",
+    "postinstall": "gqlmd graphql-to-doc"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
