@@ -17,8 +17,10 @@ export default async function Page(props: {
 
   const MDXContent = page.data.body;
 
+  const toc = page.data.toc.filter((node) => node.depth === 3);
+
   return (
-    <DocsPage toc={page.data.toc} full={page.data.full}>
+    <DocsPage toc={toc} full={page.data.full} footer={{enabled: false}} breadcrumb={{includePage: true}} tableOfContentPopover={{enabled: true}}>
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
@@ -29,6 +31,7 @@ export default async function Page(props: {
             a: createRelativeLink(source, page),
             // you can add other MDX components here
           }}
+          suppressHydrationWarning={true} // suppress hydration mismatch warning (https://nextjs.org/docs/messages/react-hydration-error)
         />
       </DocsBody>
     </DocsPage>

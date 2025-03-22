@@ -1,26 +1,60 @@
-# fumadocs
+# GraphQL-Markdown + Next.js/Fumadocs demo
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/graphql-markdown/demo-nextjs-fumadocs/tree/main)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/graphql-markdown/demo-nextjs-fumadocs/tree/main)
 
-Run development server:
+## 🚀 Project Structure
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
+Inside your GraphQL-Markdown + [Next.js](https://nextjs.org/)/[Fumadocs](https://fumadocs.vercel.app/) project, you'll see the following folders and files:
+
+```
+.
+├── app/
+|   ├──(home)/
+|   ├── api/
+│   ├── assets/
+│   │   └── index.mdx
+│   ├── docs/
+│   │   └── [[...slug]]
+│   │       └── page.tsx
+│   ├── globals.css
+|   ├── layout.config.tsx
+|   └── layout.tsx
+├── lib/
+│   ├── fumadocs-mdx.cjs
+│   └── source.ts
+├── next.config.mjs
+├── graphql.config.mjs
+├── postcss.config.mjs
+├── source.config.mjs
+├── package.json
+└── tsconfig.json
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+## 🧞 Commands
 
-## Learn More
+All commands are run from the root of the project, from a terminal:
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+| Command                    | Action                                              |
+| :------------------------- | :-------------------------------------------------- |
+| `npm install`              | Installs dependencies                               |
+| `npx gqlmd graphql-to-doc` | Generate documentation from GraphQL schema          |
+| `npm run dev`              | Starts local dev server at `localhost:3000`         |
+| `npm run build`            | Build your production site to `./dist/`             |
+| `npm run start`            | Starts local production server  at `localhost:3000` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+## 🏎️ Quick start
+
+Get your demo up and running with these commands:
+
+```bash
+npm install
+npx gqlmd graphql-to-doc
+npm run dev
+```
+
+> 🧑‍🚀 **Edit `graphql.config.msj` to try with your own GraphQL schema.**
+
+## 👀 Want to learn more?
+
+Check out [GraphQL-Markdown's docs](https://graphql-markdown.dev/).
