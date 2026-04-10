@@ -15,9 +15,9 @@
     "@emotion/styled": "^11.14.0",
     "@graphql-markdown/cli": "^0.6.1",
     "@mui/material": "^6.4.8",
-    "fumadocs-core": "16.5.0",
-    "fumadocs-mdx": "14.2.6",
-    "fumadocs-ui": "16.5.0",
+    "fumadocs-core": "16.7.11",
+    "fumadocs-mdx": "14.2.11",
+    "fumadocs-ui": "16.7.11",
     "next": "16.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
