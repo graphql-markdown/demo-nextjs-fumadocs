@@ -14,7 +14,7 @@ export default {
         printTypeOptions: {
           typeBadges: true,
         },
-        mdxParser: "@graphql-markdown/formatters/fumadocs",
+        formatter: "@graphql-markdown/formatters/fumadocs",
         homepage: `${__dirname}/app/assets/index.mdx`,
       },
     },
