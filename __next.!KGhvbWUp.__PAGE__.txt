@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/demo-nextjs-fumadocs/_next/static/chunks/0hzw_0q9ni3u..js","/demo-nextjs-fumadocs/_next/static/chunks/0qid5lwcbx9s0.js","/demo-nextjs-fumadocs/_next/static/chunks/0wk5lybk7.z9e.js","/demo-nextjs-fumadocs/_next/static/chunks/13je8dom8zlna.js","/demo-nextjs-fumadocs/_next/static/chunks/0yhhxfedx2~81.js"],""]
+3:I[97367,["/demo-nextjs-fumadocs/_next/static/chunks/0hzw_0q9ni3u..js","/demo-nextjs-fumadocs/_next/static/chunks/0qid5lwcbx9s0.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"flex flex-1 flex-col justify-center text-center","children":[["$","h1",null,{"className":"mb-4 text-2xl font-bold","children":"GraphQL-Markdown demo with Fumadocs/NextJS"}],["$","p",null,{"className":"text-fd-muted-foreground","children":["You can open"," ",["$","$L2",null,{"href":"/docs","className":"text-fd-foreground font-semibold underline","children":"/docs"}]," ","and see the documentation."]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3lWz-xKxwFV5W9cUDPPmz"}
+5:null
