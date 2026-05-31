@@ -13,7 +13,8 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@graphql-markdown/cli": "^0.7.1",
+    "@graphql-markdown/cli": "^1.0.0",
+    "@graphql-markdown/formatters": "^1.0.0",
     "@mui/material": "^9.0.0",
     "fumadocs-core": "16.7.11",
     "fumadocs-mdx": "14.2.11",
