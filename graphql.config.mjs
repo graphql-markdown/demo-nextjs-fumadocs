@@ -14,7 +14,10 @@ export default {
         printTypeOptions: {
           typeBadges: true,
         },
-        formatter: "@graphql-markdown/formatters/fumadocs",
+        // Local wrapper around the Fumadocs preset: it strips the `.mdx` extension
+        // from internal links. Revert to "@graphql-markdown/formatters/fumadocs"
+        // once the upstream fix is released.
+        formatter: `${__dirname}/lib/fumadocs-formatter.mjs`,
         homepage: `${__dirname}/app/assets/index.mdx`,
       },
     },
