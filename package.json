@@ -16,9 +16,9 @@
     "@graphql-markdown/cli": "^1.0.1",
     "@graphql-markdown/formatters": "^1.0.1",
     "@mui/material": "^9.0.0",
-    "fumadocs-core": "16.7.11",
+    "fumadocs-core": "16.14.5",
     "fumadocs-mdx": "14.3.2",
-    "fumadocs-ui": "16.7.11",
+    "fumadocs-ui": "16.14.5",
     "next": "16.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
