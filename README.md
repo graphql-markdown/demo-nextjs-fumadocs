@@ -3,7 +3,7 @@
 <!-- [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/graphql-markdown/demo-nextjs-fumadocs/tree/main) -->
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/graphql-markdown/demo-nextjs-fumadocs/tree/main)
 
-**Live demo:** [graphql-markdown.dev/demo-nextjs-fumadocs](https://graphql-markdown.dev/demo-nextjs-fumadocs/docs/)
+**Live demo:** [graphql-markdown.dev/demo-nextjs-fumadocs](https://graphql-markdown.dev/demo-nextjs-fumadocs/docs)
 
 ## 🚀 Project Structure
 
