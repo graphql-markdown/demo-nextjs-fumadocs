@@ -12,6 +12,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
     permissions:
       contents: write
+    env:
+      GRAPHQL_MARKDOWN_TELEMETRY_DEBUG: "1"
     steps:
       - uses: actions/checkout@v7
 
@@ -26,8 +28,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          GRAPHQL_MARKDOWN_TELEMETRY_DEBUG: "1"
 
       - name: Configure git
         run: |
