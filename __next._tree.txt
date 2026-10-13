@@ -2,4 +2,4 @@
 :HL["/demo-nextjs-fumadocs/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"(home)","h":96,"c":"$Q2"}]]
-0:{"b":"eHhg0nlF_EO7i-9c_TfKb","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"hkmZEL2NCSRfBGjjF114f","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
