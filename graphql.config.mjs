@@ -3,6 +3,7 @@ export default {
     extensions: {
       ["graphql-markdown"]: {
         rootPath: "./content/docs",
+        telemetry: false,
         baseURL: ".",
         linkRoot: "/docs",
         loaders: {
