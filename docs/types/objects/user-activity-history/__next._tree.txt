@@ -1,6 +1,6 @@
-:HL["/demo-nextjs-fumadocs/_next/static/chunks/3lxucqldjex95.css","style"]
-:HL["/demo-nextjs-fumadocs/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/demo-nextjs-fumadocs/_next/static/chunks/3da5uqfrv2gx0.css","style"]
+:HL["/demo-nextjs-fumadocs/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"oc","k":"types/objects/user-activity-history","s":[]},"h":64,"c":"$Q3"}]]
 1:[["children",{"s":"docs","h":32,"c":"$Q2"}]]
-0:{"b":"hkmZEL2NCSRfBGjjF114f","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"uXdOIqJnEnxsK6ST_xv3f","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

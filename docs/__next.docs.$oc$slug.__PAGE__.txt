@@ -1,14 +1,14 @@
 3:"$Sreact.fragment"
-4:"/demo-nextjs-fumadocs/_next/static/chunks/2gra52l8guzru.js"
-5:"/demo-nextjs-fumadocs/_next/static/chunks/0fjvgx6xde9tb.js"
+4:"/demo-nextjs-fumadocs/_next/static/chunks/1ey7emfmhmsnu.js"
+5:"/demo-nextjs-fumadocs/_next/static/chunks/39kxyujv-ep9n.js"
 6:I[39756,["$4","$5"],"default"]
 7:I[37457,["$4","$5"],"default"]
-c:"/demo-nextjs-fumadocs/_next/static/chunks/2vexnisaqu8xf.js"
-d:"/demo-nextjs-fumadocs/_next/static/chunks/35vjsaw_9wo56.js"
-e:"/demo-nextjs-fumadocs/_next/static/chunks/0qn4dyuytm6y2.js"
-f:"/demo-nextjs-fumadocs/_next/static/chunks/1n7fgawi8rx1i.js"
-10:"/demo-nextjs-fumadocs/_next/static/chunks/3jryoe_ki4jb-.js"
-11:"/demo-nextjs-fumadocs/_next/static/chunks/0drzab0wwdth4.js"
+c:"/demo-nextjs-fumadocs/_next/static/chunks/41hqxyx_2cg4u.js"
+d:"/demo-nextjs-fumadocs/_next/static/chunks/01qinhog7vt1n.js"
+e:"/demo-nextjs-fumadocs/_next/static/chunks/1us5ldmm9irb1.js"
+f:"/demo-nextjs-fumadocs/_next/static/chunks/118xzkg067_v3.js"
+10:"/demo-nextjs-fumadocs/_next/static/chunks/0m1tak8d2vwvq.js"
+11:"/demo-nextjs-fumadocs/_next/static/chunks/33clwi4b7010d.js"
 12:I[53266,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsPage"]
 13:I[53266,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsTitle"]
 14:I[53266,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsDescription"]
@@ -22,10 +22,10 @@ f:"/demo-nextjs-fumadocs/_next/static/chunks/1n7fgawi8rx1i.js"
 9:X
 9:C
 a:X
-b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L12",null,{"toc":[],"footer":{"enabled":false},"breadcrumb":{"includePage":true},"tableOfContentPopover":{"enabled":true},"children":[["$","$L13",null,{"children":"Schema Documentation"}],["$","$L14",null,{}],["$","$L15",null,{"children":[["$","p",null,{"children":"This documentation has been automatically generated from the GraphQL schema."}],"\n",["$","p",null,{"children":"Use the docs in the sidebar to find out how to use the schema:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Allowed operations"}],": queries and mutations."]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Schema-defined types"}],": scalars, objects, enums, interfaces, unions, and input objects."]}],"\n"]}]]}]]}],[["$","script","script-0",{"src":"/demo-nextjs-fumadocs/_next/static/chunks/3jryoe_ki4jb-.js","async":true}],["$","script","script-1",{"src":"/demo-nextjs-fumadocs/_next/static/chunks/0drzab0wwdth4.js","async":true}]],["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]]}],"p":"$@19","v":null,"s":"$a"}}]]
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L12",null,{"toc":[],"footer":{"enabled":false},"breadcrumb":{"includePage":true},"tableOfContentPopover":{"enabled":true},"children":[["$","$L13",null,{"children":"Schema Documentation"}],["$","$L14",null,{}],["$","$L15",null,{"children":[["$","p",null,{"children":"This documentation has been automatically generated from the GraphQL schema."}],"\n",["$","p",null,{"children":"Use the docs in the sidebar to find out how to use the schema:"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Allowed operations"}],": queries and mutations."]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Schema-defined types"}],": scalars, objects, enums, interfaces, unions, and input objects."]}],"\n"]}]]}],["$","p",null,{"className":"mt-12 border-t pt-4 text-sm text-fd-muted-foreground","children":["Generated with"," ",["$","a",null,{"href":"https://graphql-markdown.dev","className":"text-fd-primary hover:underline","children":"GraphQL-Markdown"}]," · ",["$","a",null,{"href":"https://github.com/graphql-markdown/graphql-markdown","className":"text-fd-primary hover:underline","children":"⭐ Star on GitHub"}]]}]]}],[["$","script","script-0",{"src":"/demo-nextjs-fumadocs/_next/static/chunks/0m1tak8d2vwvq.js","async":true}],["$","script","script-1",{"src":"/demo-nextjs-fumadocs/_next/static/chunks/33clwi4b7010d.js","async":true}]],["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]]}],"p":"$@19","v":null,"s":"$a"}}]]
 2:[["children",{"s":{"n":"slug","t":"oc","k":"","s":[]},"h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
 1:[["children",{"s":"docs","h":32,"c":"$Q2"}]]
-0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Schema Documentation"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$a"}},"a":"$@1f","u":"$@20","b":"hkmZEL2NCSRfBGjjF114f"}
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Schema Documentation"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$a"}},"a":"$@1f","u":"$@20","b":"uXdOIqJnEnxsK6ST_xv3f"}
 18:null
 20:true
 a:300
