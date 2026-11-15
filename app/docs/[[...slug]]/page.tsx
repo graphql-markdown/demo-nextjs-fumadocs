@@ -34,6 +34,19 @@ export default async function Page(props: {
           suppressHydrationWarning={true} // suppress hydration mismatch warning (https://nextjs.org/docs/messages/react-hydration-error)
         />
       </DocsBody>
+      <p className="mt-12 border-t pt-4 text-sm text-fd-muted-foreground">
+        Generated with{' '}
+        <a href="https://graphql-markdown.dev" className="text-fd-primary hover:underline">
+          GraphQL-Markdown
+        </a>
+        {' · '}
+        <a
+          href="https://github.com/graphql-markdown/graphql-markdown"
+          className="text-fd-primary hover:underline"
+        >
+          ⭐ Star on GitHub
+        </a>
+      </p>
     </DocsPage>
   );
 }
