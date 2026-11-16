@@ -1,5 +1,6 @@
 export default {
-    schema: "https://graphql.anilist.co/",
+    schema:
+      "https://raw.githubusercontent.com/graphql-markdown/graphql-markdown/main/tests/e2e/__data__/demo_schema.graphql",
     extensions: {
       ["graphql-markdown"]: {
         rootPath: "./content/docs",
@@ -9,7 +10,6 @@ export default {
         loaders: {
           UrlLoader: {
             module: "@graphql-tools/url-loader",
-            options: { method: "POST" },
           },
         },
         printTypeOptions: {
