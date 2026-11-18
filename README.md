@@ -12,16 +12,20 @@ Inside your GraphQL-Markdown + [Next.js](https://nextjs.org/)/[Fumadocs](https:/
 ```
 .
 ├── app/
-|   ├──(home)/
+|   ├──(home)/               (landing page)
 |   ├── api/
 │   ├── assets/
 │   │   └── index.mdx
 │   ├── docs/
 │   │   └── [[...slug]]
 │   │       └── page.tsx
-│   ├── globals.css
+│   ├── global.css            (neutral preset + reference polish)
 |   ├── layout.config.tsx
 |   └── layout.tsx
+├── tests/
+│   └── visual/
+│       └── site.spec.ts      (Playwright + Argos screenshots)
+├── playwright.config.ts
 ├── lib/
 │   ├── fumadocs-mdx.cjs
 │   └── source.ts
@@ -44,6 +48,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`              | Starts local dev server at `localhost:3000`         |
 | `npm run build`            | Build your production site to `./dist/`             |
 | `npm run start`            | Starts local production server  at `localhost:3000` |
+| `npm run test:visual`      | Runs Playwright visual tests (build first, `VISUAL_PORT` sets the port) |
 
 ## 🏎️ Quick start
 

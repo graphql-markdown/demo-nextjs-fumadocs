@@ -28,3 +28,8 @@ yarn-error.log*
 .vercel
 next-env.d.ts
 .vscode
+
+# visual tests
+/test-results/
+/playwright-report/
+/.visual/

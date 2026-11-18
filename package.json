@@ -6,6 +6,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
+    "test:visual": "playwright test",
     "doc": "gqlmd graphql-to-doc",
     "gqlmd": "gqlmd",
     "postinstall": "gqlmd graphql-to-doc"
@@ -24,12 +25,15 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@argos-ci/playwright": "^7.10.0",
+    "@playwright/test": "^1.65.1",
     "@tailwindcss/postcss": "^4.3.5",
     "@types/mdx": "^2.0.13",
     "@types/node": "26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "postcss": "^8.5.32",
+    "serve": "^14.2.8",
     "tailwindcss": "^4.2.2",
     "typescript": "^7.0.2"
   }
