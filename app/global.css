@@ -4,20 +4,15 @@
 
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
 
-/* ── Violet accent (light violet-700, dark #b9a4ff) ─────────────────── */
+/* ── Fumadocs neutral preset accent (primary comes from the preset) ──── */
 
 :root {
-  --color-fd-primary: #6d28d9;
-  --color-fd-primary-foreground: #ffffff;
-  --color-fd-ring: #6d28d9;
-  --color-fd-accent: color-mix(in oklch, #6d28d9 10%, transparent);
-  --color-fd-accent-foreground: #4c1d95;
   --gqlmd-chip-bg: var(--color-fd-muted);
   --gqlmd-chip-border: var(--color-fd-border);
   --gqlmd-badge-bg: color-mix(in oklch, #71717a 15%, transparent);
   --gqlmd-badge-text: var(--color-fd-muted-foreground);
-  --gqlmd-badge-info-bg: color-mix(in oklch, #6d28d9 12%, transparent);
-  --gqlmd-badge-info-text: #5b21b6;
+  --gqlmd-badge-info-bg: color-mix(in oklch, var(--color-fd-primary) 12%, transparent);
+  --gqlmd-badge-info-text: var(--color-fd-primary);
   --gqlmd-badge-warning-bg: color-mix(in oklch, #f59e0b 20%, transparent);
   --gqlmd-badge-warning-text: #b45309;
 }
@@ -29,13 +24,8 @@
   --color-fd-muted: #1b1b1b;
   --color-fd-secondary: #242424;
   --color-fd-border: #292929;
-  --color-fd-primary: #b9a4ff;
-  --color-fd-primary-foreground: #0d0d0d;
-  --color-fd-ring: #b9a4ff;
-  --color-fd-accent: color-mix(in oklch, #b9a4ff 12%, transparent);
-  --color-fd-accent-foreground: #d8ccff;
-  --gqlmd-badge-info-bg: color-mix(in oklch, #b9a4ff 15%, transparent);
-  --gqlmd-badge-info-text: #d8ccff;
+  --gqlmd-badge-info-bg: color-mix(in oklch, var(--color-fd-primary) 15%, transparent);
+  --gqlmd-badge-info-text: var(--color-fd-primary);
   --gqlmd-badge-warning-bg: color-mix(in oklch, #f59e0b 20%, transparent);
   --gqlmd-badge-warning-text: #fbbf24;
 }

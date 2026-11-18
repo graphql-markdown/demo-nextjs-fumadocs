@@ -19,7 +19,7 @@ Inside your GraphQL-Markdown + [Next.js](https://nextjs.org/)/[Fumadocs](https:/
 │   ├── docs/
 │   │   └── [[...slug]]
 │   │       └── page.tsx
-│   ├── global.css            (violet theme + reference polish)
+│   ├── global.css            (neutral preset + reference polish)
 |   ├── layout.config.tsx
 |   └── layout.tsx
 ├── tests/

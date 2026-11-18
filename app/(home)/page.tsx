@@ -48,7 +48,7 @@ export default function HomePage() {
             <span className="font-mono text-sm text-zinc-400">
               workspace.graphql
             </span>
-            <span className="rounded bg-violet-300/10 px-2 py-1 font-mono text-xs text-violet-300">
+            <span className="rounded bg-white/10 px-2 py-1 font-mono text-xs text-zinc-300">
               SCHEMA
             </span>
           </div>
