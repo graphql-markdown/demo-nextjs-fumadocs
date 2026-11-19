@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'GraphQL-Markdown Fumadocs Demo',
+  title: 'GraphQL-Markdown',
   description: 'A generated GraphQL API reference for the workspace demo schema.',
 };
 
