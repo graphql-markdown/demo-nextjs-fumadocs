@@ -44,6 +44,7 @@ Each type page is also published as plain Markdown (`/docs/types/objects/project
 - `graphql.config.mjs` defines a `markdown` project that renders the schema with `lib/markdown-copy.mjs` into `.markdown-copies/docs`.
 - `npm run build` copies `.markdown-copies/` into `public/` before `next build`, because Next.js serves `public/` as-is.
 - `lib/formatter.mjs` extends the Fumadocs preset: it adds the "View as Markdown" link (`COPIES_URL` is the deployed URL of the pages folder, base path included) and links type names written in backticks in deprecation reasons to their page, using `toLink` from `@graphql-markdown/printer-legacy`.
+- The type-level `@deprecatedType` directive on `LegacyProject` renders a "Deprecated" badge and notice on its page and in its Markdown copy, through the `deprecatedTypeTag` and `deprecatedTypeNotice` decorators in `graphql.config.mjs`.
 
 ## 🧞 Commands
 
