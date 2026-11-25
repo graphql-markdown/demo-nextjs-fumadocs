@@ -46,6 +46,39 @@ for (const [kind, path, title] of pages) {
   });
 }
 
+// Each type is also published as plain Markdown next to its page: no MDX
+// or HTML spans.
+test("markdown copy", async ({ page }) => {
+  const response = await page.request.get("docs/types/objects/project.md");
+  expect(response.status()).toBe(200);
+  const body = await response.text();
+  expect(body.startsWith("# ")).toBe(true);
+  expect(body).not.toContain("<span");
+});
+
+// Backticked type names in deprecation reasons link to their page.
+test("deprecation reason links to a type page", async ({ page }) => {
+  await page.goto("docs/types/objects/project");
+  const link = page
+    .locator("p", { hasText: "Replaced by" })
+    .locator("a", { hasText: "ProjectStatus" });
+  await expect(link).toHaveAttribute(
+    "href",
+    /\/docs\/types\/enums\/project-status$/,
+  );
+});
+
+// The type-level `@deprecatedType` notice renders with a link to `Project`.
+test("deprecated type shows a notice with a link", async ({ page }) => {
+  await page.goto("docs/types/objects/legacy-project");
+  const notice = page.locator("div", { hasText: /^Replaced by/ }).first();
+  await expect(notice).toBeVisible();
+  await expect(notice.locator("a", { hasText: /^Project$/ })).toHaveAttribute(
+    "href",
+    /\/docs\/types\/objects\/project$/,
+  );
+});
+
 test.describe("dark mode", () => {
   test.use({ colorScheme: "dark" });
 

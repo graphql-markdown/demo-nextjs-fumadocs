@@ -33,3 +33,7 @@ next-env.d.ts
 /test-results/
 /playwright-report/
 /.visual/
+
+# markdown copies
+.markdown-copies/
+/public/docs/
