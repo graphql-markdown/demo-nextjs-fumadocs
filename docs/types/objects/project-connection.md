@@ -1,9 +1,6 @@
 # ProjectConnection
 
-
-
 A paginated project result set.
-
 
 ```graphql
 type ProjectConnection {
@@ -12,21 +9,17 @@ type ProjectConnection {
 }
 ```
 
-
 ### Fields
 
-#### `ProjectConnection.nodes` · [`[Project!]!`](./project.md) **non-null** **object** 
+#### `ProjectConnection.nodes` · [`[Project!]!`](./project.md) **non-null** **object**
+
 Projects in the current result page.
 
+#### `ProjectConnection.totalCount` · [`Int!`](../scalars/int.md) **non-null** **scalar**
 
-#### `ProjectConnection.totalCount` · [`Int!`](../scalars/int.md) **non-null** **scalar** 
 The total number of projects matching the query.
 
-
-
-
 ### Example
-
 
 ```graphql
 {
@@ -44,9 +37,6 @@ The total number of projects matching the query.
   ]
 }
 ```
-
-
-
 
 ### Returned By
 

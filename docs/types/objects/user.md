@@ -1,9 +1,6 @@
 # User
 
-
-
 A workspace member who owns and collaborates on projects.
-
 
 ```graphql
 type User implements Node {
@@ -14,37 +11,31 @@ type User implements Node {
 }
 ```
 
-
 ### Fields
 
-#### `User.id` · [`ID!`](../scalars/id.md) **non-null** **scalar** 
+#### `User.id` · [`ID!`](../scalars/id.md) **non-null** **scalar**
+
 The unique identifier of the user.
 
+#### `User.name` · [`String!`](../scalars/string.md) **non-null** **scalar**
 
-#### `User.name` · [`String!`](../scalars/string.md) **non-null** **scalar** 
 The user's display name.
 
+#### `User.email` · [`String!`](../scalars/string.md) **non-null** **scalar**
 
-#### `User.email` · [`String!`](../scalars/string.md) **non-null** **scalar** 
 The user's primary email address.
 
+#### `User.role` · [`String!`](../scalars/string.md) **non-null** **scalar**
 
-#### `User.role` · [`String!`](../scalars/string.md) **non-null** **scalar** 
 The user's role in the workspace.
-
-
-
 
 ### Interfaces
 
-#### [`Node`](../interfaces/node.md) **interface** 
+#### [`Node`](../interfaces/node.md) **interface**
+
 A globally unique entity identifier.
 
-
-
-
 ### Example
-
 
 ```graphql
 {
@@ -54,9 +45,6 @@ A globally unique entity identifier.
   "role": "Product Lead"
 }
 ```
-
-
-
 
 ### Member Of
 

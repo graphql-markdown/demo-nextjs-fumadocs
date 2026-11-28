@@ -1,16 +1,12 @@
 # deprecatedType
 
-
-
 Marks an object type as superseded when standard @deprecated cannot be applied.
-
 
 ```graphql
 directive @deprecatedType(
   reason: String!
 ) on OBJECT
 ```
-
 
 ### Arguments
 

@@ -1,14 +1,10 @@
 # DateTime
 
-
-
 An ISO 8601 timestamp in UTC.
-
 
 ```graphql
 scalar DateTime
 ```
-
 
 ### Member Of
 

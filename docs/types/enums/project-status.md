@@ -1,9 +1,6 @@
 # ProjectStatus
 
-
-
 The lifecycle stage of a project.
-
 
 ```graphql
 enum ProjectStatus {
@@ -13,22 +10,19 @@ enum ProjectStatus {
 }
 ```
 
-
 ### Values
 
-#### `ProjectStatus.DRAFT`  
+#### `ProjectStatus.DRAFT`
+
 The project is being planned and is not yet active.
 
+#### `ProjectStatus.ACTIVE`
 
-#### `ProjectStatus.ACTIVE`  
 The project is active and available to collaborators.
 
+#### `ProjectStatus.ARCHIVED`
 
-#### `ProjectStatus.ARCHIVED`  
 The project is retained for history and no longer active.
-
-
-
 
 ### Member Of
 

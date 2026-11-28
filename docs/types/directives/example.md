@@ -1,9 +1,6 @@
 # example
 
-
-
 Provides a GraphQL example that is rendered in the generated API reference.
-
 
 ```graphql
 directive @example(
@@ -12,7 +9,6 @@ directive @example(
   | FIELD_DEFINITION
   | OBJECT
 ```
-
 
 ### Arguments
 

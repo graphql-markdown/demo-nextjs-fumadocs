@@ -1,9 +1,6 @@
 # CreateProjectInput
 
-
-
 Input used to create a project.
-
 
 ```graphql
 input CreateProjectInput {
@@ -14,36 +11,29 @@ input CreateProjectInput {
 }
 ```
 
-
 ### Fields
 
-#### `CreateProjectInput.name` · [`String!`](../scalars/string.md) **non-null** **scalar** 
+#### `CreateProjectInput.name` · [`String!`](../scalars/string.md) **non-null** **scalar**
+
 The name for the new project.
 
+#### `CreateProjectInput.ownerId` · [`ID!`](../scalars/id.md) **non-null** **scalar**
 
-#### `CreateProjectInput.ownerId` · [`ID!`](../scalars/id.md) **non-null** **scalar** 
 The identifier of the user who will own the project.
 
+#### `CreateProjectInput.folderId` · [`ID`](../scalars/id.md) **scalar**
 
-#### `CreateProjectInput.folderId` · [`ID`](../scalars/id.md) **scalar** 
 The optional folder that will contain the project.
 
+#### `CreateProjectInput.status` · [`ProjectStatus`](../enums/project-status.md) **enum**
 
-#### `CreateProjectInput.status` · [`ProjectStatus`](../enums/project-status.md) **enum** 
 The initial lifecycle stage for the project.
 
-
-
-
 ### Example
-
 
 ```graphql
 {}
 ```
-
-
-
 
 ### Member Of
 

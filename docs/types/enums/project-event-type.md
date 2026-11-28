@@ -1,9 +1,6 @@
 # ProjectEventType
 
-
-
 The kind of change that occurred on a project.
-
 
 ```graphql
 enum ProjectEventType {
@@ -13,22 +10,19 @@ enum ProjectEventType {
 }
 ```
 
-
 ### Values
 
-#### `ProjectEventType.CREATED`  
+#### `ProjectEventType.CREATED`
+
 The project was created.
 
+#### `ProjectEventType.UPDATED`
 
-#### `ProjectEventType.UPDATED`  
 One or more project fields were updated.
 
+#### `ProjectEventType.ARCHIVED`
 
-#### `ProjectEventType.ARCHIVED`  
 The project was archived.
-
-
-
 
 ### Member Of
 

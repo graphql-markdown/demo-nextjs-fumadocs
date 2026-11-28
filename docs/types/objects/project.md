@@ -1,9 +1,6 @@
 # Project
 
-
-
 A unit of work tracked in the workspace.
-
 
 ```graphql
 type Project implements Node {
@@ -17,58 +14,51 @@ type Project implements Node {
 }
 ```
 
-
 ### Fields
 
-#### `Project.id` · [`ID!`](../scalars/id.md) **non-null** **scalar** 
+#### `Project.id` · [`ID!`](../scalars/id.md) **non-null** **scalar**
+
 The unique identifier of the project.
 
+#### `Project.name` · [`String!`](../scalars/string.md) **non-null** **scalar**
 
-#### `Project.name` · [`String!`](../scalars/string.md) **non-null** **scalar** 
 The project name shown to collaborators.
 
+#### `Project.status` · [`ProjectStatus!`](../enums/project-status.md) **non-null** **enum**
 
-#### `Project.status` · [`ProjectStatus!`](../enums/project-status.md) **non-null** **enum** 
 The current lifecycle stage of the project.
 
+#### `Project.owner` · [`User!`](./user.md) **non-null** **object**
 
-#### `Project.owner` · [`User!`](./user.md) **non-null** **object** 
 The user responsible for the project.
 
+#### `Project.folder` · [`Folder`](./folder.md) **object**
 
-#### `Project.folder` · [`Folder`](./folder.md) **object** 
 The folder containing this project, when assigned.
 
+#### `Project.updatedAt` · [`DateTime!`](../scalars/date-time.md) **non-null** **scalar**
 
-#### `Project.updatedAt` · [`DateTime!`](../scalars/date-time.md) **non-null** **scalar** 
 When the project was last updated.
 
+#### `Project.state` · [`String`](../scalars/string.md) **deprecated** **scalar**
 
-#### `Project.state` · [`String`](../scalars/string.md) **deprecated** **scalar** 
 > [!WARNING]
 > DEPRECATED
-> 
-> 
+>
+>
 > Replaced by the `ProjectStatus` enum on status.
-> 
-> 
-
+>
+>
 
 The project's lifecycle stage.
 
-
-
-
 ### Interfaces
 
-#### [`Node`](../interfaces/node.md) **interface** 
+#### [`Node`](../interfaces/node.md) **interface**
+
 A globally unique entity identifier.
 
-
-
-
 ### Example
-
 
 ```graphql
 {
@@ -82,9 +72,6 @@ A globally unique entity identifier.
   "updatedAt": "2026-09-05T10:15:00Z"
 }
 ```
-
-
-
 
 ### Returned By
 

@@ -1,9 +1,6 @@
 # ProjectEvent
 
-
-
 A change delivered to subscribers watching a project.
-
 
 ```graphql
 type ProjectEvent {
@@ -14,29 +11,25 @@ type ProjectEvent {
 }
 ```
 
-
 ### Fields
 
-#### `ProjectEvent.type` · [`ProjectEventType!`](../enums/project-event-type.md) **non-null** **enum** 
+#### `ProjectEvent.type` · [`ProjectEventType!`](../enums/project-event-type.md) **non-null** **enum**
+
 The kind of change that occurred.
 
+#### `ProjectEvent.project` · [`Project!`](./project.md) **non-null** **object**
 
-#### `ProjectEvent.project` · [`Project!`](./project.md) **non-null** **object** 
 The project in its state after the change.
 
+#### `ProjectEvent.actor` · [`User`](./user.md) **object**
 
-#### `ProjectEvent.actor` · [`User`](./user.md) **object** 
 The user who triggered the change, when known.
 
+#### `ProjectEvent.occurredAt` · [`DateTime!`](../scalars/date-time.md) **non-null** **scalar**
 
-#### `ProjectEvent.occurredAt` · [`DateTime!`](../scalars/date-time.md) **non-null** **scalar** 
 When the change occurred.
 
-
-
-
 ### Example
-
 
 ```graphql
 {
@@ -49,9 +42,6 @@ When the change occurred.
   "occurredAt": "2026-09-05T10:15:00Z"
 }
 ```
-
-
-
 
 ### Returned By
 

@@ -1,9 +1,6 @@
 # specifiedBy
 
-
-
 Exposes a URL that specifies the behavior of this scalar.
-
 
 ```graphql
 directive @specifiedBy(
@@ -11,8 +8,8 @@ directive @specifiedBy(
 ) on SCALAR
 ```
 
-
 ### Arguments
 
-#### `specifiedBy.url` · [`String!`](../scalars/string.md) **non-null** **scalar** 
+#### `specifiedBy.url` · [`String!`](../scalars/string.md) **non-null** **scalar**
+
 The URL that specifies the behavior of this scalar.

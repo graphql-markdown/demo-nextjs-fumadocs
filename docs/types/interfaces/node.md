@@ -1,9 +1,6 @@
 # Node
 
-
-
 A globally unique entity identifier.
-
 
 ```graphql
 interface Node {
@@ -11,24 +8,17 @@ interface Node {
 }
 ```
 
-
 ### Fields
 
-#### `Node.id` · [`ID!`](../scalars/id.md) **non-null** **scalar** 
+#### `Node.id` · [`ID!`](../scalars/id.md) **non-null** **scalar**
+
 The globally unique identifier for this resource.
 
-
-
-
 ### Example
-
 
 ```graphql
 {}
 ```
-
-
-
 
 ### Implemented By
 

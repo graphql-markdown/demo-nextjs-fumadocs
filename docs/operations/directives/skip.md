@@ -1,9 +1,6 @@
 # skip
 
-
-
 Directs the executor to skip this field or fragment when the `if` argument is true.
-
 
 ```graphql
 directive @skip(
@@ -14,8 +11,8 @@ directive @skip(
   | INLINE_FRAGMENT
 ```
 
-
 ### Arguments
 
-#### `skip.if` · [`Boolean!`](../../types/scalars/boolean.md) **non-null** **scalar** 
+#### `skip.if` · [`Boolean!`](../../types/scalars/boolean.md) **non-null** **scalar**
+
 Skipped when true.

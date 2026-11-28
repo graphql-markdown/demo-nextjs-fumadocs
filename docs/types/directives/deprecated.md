@@ -1,9 +1,6 @@
 # deprecated
 
-
-
 Marks an element of a GraphQL schema as no longer supported.
-
 
 ```graphql
 directive @deprecated(
@@ -16,8 +13,8 @@ directive @deprecated(
   | DIRECTIVE_DEFINITION
 ```
 
-
 ### Arguments
 
-#### `deprecated.reason` · [`String!`](../scalars/string.md) **non-null** **scalar** 
+#### `deprecated.reason` · [`String!`](../scalars/string.md) **non-null** **scalar**
+
 Explains why this element was deprecated, usually also including a suggestion for how to access supported similar data. Formatted using the Markdown syntax, as specified by [CommonMark](https://commonmark.org/).

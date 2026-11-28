@@ -1,9 +1,6 @@
 # search
 
-
-
 Search folders, projects, and users from a single endpoint.
-
 
 ```graphql
 search(
@@ -11,25 +8,19 @@ search(
 ): [SearchResult!]!
 ```
 
-
 ### Arguments
 
-#### `search.query` · [`String!`](../../types/scalars/string.md) **non-null** **scalar** 
+#### `search.query` · [`String!`](../../types/scalars/string.md) **non-null** **scalar**
+
 Text matched against folder, project, and user names.
-
-
-
 
 ### Type
 
-#### [`SearchResult`](../../types/unions/search-result.md) **union** 
+#### [`SearchResult`](../../types/unions/search-result.md) **union**
+
 A result returned from global workspace search.
 
-
-
-
 ### Example
-
 
 ```graphql
 query SearchWorkspace($query: String!) {

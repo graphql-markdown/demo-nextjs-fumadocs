@@ -1,9 +1,6 @@
 # Folder
 
-
-
 A virtual folder used to organize workspace resources.
-
 
 ```graphql
 type Folder implements Node {
@@ -14,37 +11,31 @@ type Folder implements Node {
 }
 ```
 
-
 ### Fields
 
-#### `Folder.id` · [`ID!`](../scalars/id.md) **non-null** **scalar** 
+#### `Folder.id` · [`ID!`](../scalars/id.md) **non-null** **scalar**
+
 The unique identifier of the folder.
 
+#### `Folder.name` · [`String!`](../scalars/string.md) **non-null** **scalar**
 
-#### `Folder.name` · [`String!`](../scalars/string.md) **non-null** **scalar** 
 The human-readable folder name.
 
+#### `Folder.parent` · [`String`](../scalars/string.md) **scalar**
 
-#### `Folder.parent` · [`String`](../scalars/string.md) **scalar** 
 The identifier of the parent folder, when nested.
 
+#### `Folder.createdAt` · [`DateTime!`](../scalars/date-time.md) **non-null** **scalar**
 
-#### `Folder.createdAt` · [`DateTime!`](../scalars/date-time.md) **non-null** **scalar** 
 When the folder was created.
-
-
-
 
 ### Interfaces
 
-#### [`Node`](../interfaces/node.md) **interface** 
+#### [`Node`](../interfaces/node.md) **interface**
+
 A globally unique entity identifier.
 
-
-
-
 ### Example
-
 
 ```graphql
 {
@@ -54,9 +45,6 @@ A globally unique entity identifier.
   "createdAt": "2026-09-05T09:30:00Z"
 }
 ```
-
-
-
 
 ### Returned By
 
